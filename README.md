@@ -1,11 +1,11 @@
-# Submission 1: Nama Proyek Anda
-Nama:
+# Submission 1: SMS Spam Detection
+Nama: San Antonio Limbong
 
-Username dicoding:
+Username dicoding: san-limbong
 
 | | Deskripsi |
 | ----------- | ----------- |
-| Dataset | [nama dataset](https://www.kaggle.com/) |
+| Dataset | [SMS Spam Collection Dataset](https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset) |
 | Masalah | Deskripsi masalah yang di angkat |
 | Solusi machine learning | Deskripsi solusi machine learning yang akan dibuat |
 | Metode pengolahan | Deskripsi metode pengolahan data yang digunakan |
@@ -15,7 +15,7 @@ Username dicoding:
 
 
 
-# TF-Serving Deployment use Docker
+# Menjalankan dengan docker
 
 Membuat docker image 
 
