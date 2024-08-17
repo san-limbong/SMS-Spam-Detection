@@ -13,6 +13,17 @@
 | Metrik evaluasi | Metrik yang digunakan meliputi Area Under Curve (AUC) untuk menilai area di bawah kurva ROC, False Positive untuk menghitung kesalahan klasifikasi data negatif sebagai positif, False Negative untuk menghitung kesalahan klasifikasi data positif sebagai negatif, True Positive untuk mengukur klasifikasi positif yang benar, True Negative untuk mengukur klasifikasi negatif yang benar, dan Binary Accuracy untuk mengukur proporsi prediksi yang benar dalam masalah klasifikasi biner. |
 | Performa model | Model menunjukkan kinerja yang sangat baik dengan metrik berikut: AUC sebesar 0.96755, Binary Accuracy sebesar 0.98225, dan jumlah contoh sebanyak 1.127. Model mencatat 16 False Negatives, 4 False Positives, dan nilai Loss sebesar 0.10437. Selain itu, model berhasil mengidentifikasi 977 True Negatives dan 130 True Positives. Hasil ini menunjukkan bahwa model memiliki akurasi dan kemampuan prediksi yang sangat tinggi dalam membedakan antara pesan spam dan non-spam. |
 
+# Sekilas Mengenai TensorFlow Extended (TFX)
+
+Sebuah pipeline machine learning biasanya dimulai dengan pengumpulan data pelatihan baru dan diakhiri dengan pengumpulan umpan balik mengenai kinerja model. Pipeline ini mencakup beberapa langkah tambahan, seperti preprocessing data, pelatihan model, analisis model, dan penerapan model.
+
+Pipeline machine learning terdiri dari beberapa tahapan yang saling terkait, sehingga harus dilakukan dalam urutan yang tepat. Untuk mengatur keseluruhan proses ini, diperlukan alat yang dikenal sebagai Pipeline orchestration. Pipeline orchestration akan mengatur alur kerja berdasarkan dependensi tugas dalam grafik pipeline.
+
+![tfx pipelines](https://github.com/user-attachments/assets/bbd40174-a75b-4391-a8b8-d26d0440ed3b)
+
+TensorFlow Extended (TFX) adalah alat yang memungkinkan Anda untuk membangun pipeline machine learning secara menyeluruh. TFX menyediakan berbagai pustaka dan komponen (TFXComponents) yang mendukung pembangunan pipeline machine learning. Pipeline yang dibangun dengan TFX sering disebut sebagai pipeline TFX.
+
+
 # Pengembangan Proyek Menggunakan TensorFlow Extended (TFX) untuk Membuat Machine Learning Pipeline
 Machine learning pipeline yang memuat seluruh komponen sebagai berikut:
 - ExampleGen
