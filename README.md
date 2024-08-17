@@ -1,4 +1,7 @@
-# SMS Spam Detection
+# Proyek Pengembangan dan Pengoperasian Sistem Machine Learning Pipeline
+
+![dataset-cover sms](https://github.com/user-attachments/assets/3b403244-2cc5-49d6-9e0d-5f0006412725)
+
 
 | | Deskripsi |
 | ----------- | ----------- |
