@@ -1,7 +1,4 @@
-# Submission 1: SMS Spam Detection
-Nama: San Antonio Limbong
-
-Username dicoding: san-limbong
+SMS Spam Detection
 
 | | Deskripsi |
 | ----------- | ----------- |
@@ -13,6 +10,17 @@ Username dicoding: san-limbong
 | Metrik evaluasi | Metrik yang digunakan meliputi Area Under Curve (AUC) untuk menilai area di bawah kurva ROC, False Positive untuk menghitung kesalahan klasifikasi data negatif sebagai positif, False Negative untuk menghitung kesalahan klasifikasi data positif sebagai negatif, True Positive untuk mengukur klasifikasi positif yang benar, True Negative untuk mengukur klasifikasi negatif yang benar, dan Binary Accuracy untuk mengukur proporsi prediksi yang benar dalam masalah klasifikasi biner. |
 | Performa model | Model menunjukkan kinerja yang sangat baik dengan metrik berikut: AUC sebesar 0.96755, Binary Accuracy sebesar 0.98225, dan jumlah contoh sebanyak 1.127. Model mencatat 16 False Negatives, 4 False Positives, dan nilai Loss sebesar 0.10437. Selain itu, model berhasil mengidentifikasi 977 True Negatives dan 130 True Positives. Hasil ini menunjukkan bahwa model memiliki akurasi dan kemampuan prediksi yang sangat tinggi dalam membedakan antara pesan spam dan non-spam. |
 
+# Pengembangan Proyek Menggunakan TensorFlow Extended (TFX) untuk Membuat Machine Learning Pipeline
+Machine learning pipeline yang memuat seluruh komponen sebagai berikut:
+- ExampleGen
+- StatisticGen
+- SchemaGen
+- ExampleValidator
+- Transform
+- Trainer
+- Resolver
+- Evaluator
+- Pusher
 
 # Menjalankan dengan docker
 
